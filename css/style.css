@@ -1,0 +1,161 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  background: url("https://billiken.lat/wp-content/uploads/2021/10/la-nasa-quiere-aliarse-contra-el-cambio-climatico-334891-1_768.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'roboto', sans-serif;
+
+}
+
+#main h1 {
+  font-family: 'roboto', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+}
+
+.first,
+.intro,
+.left,
+.intro,
+.right {
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  width: 50%;
+}
+
+button {
+  margin-top: 0.8rem;
+}
+
+.first,
+.intro {
+  width: 60%;
+  max-width: 19rem;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.first {
+  margin: 4rem auto auto auto;
+}
+
+.intro {
+  margin: 2.5rem auto auto auto;
+  padding: 0.6rem;
+  line-height: 150%;
+
+}
+
+.panel {
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+.mid {
+  flex: 1;
+  border: 2px solid rgb(107, 107, 52);
+}
+
+.mid:first-child {
+  margin-right: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li h3 {
+  font-size: 1.5rem;
+}
+
+#explanation {
+  font-size: 1.1em;
+  padding: 1.2rem;
+  line-height: 200%;
+  text-indent: 5rem;
+  text-transform: capitalize;
+
+}
+
+section h2 {
+  font-size: 1.7rem;
+}
+
+#imgs,
+#vids {
+  display: block;
+  margin: 1.5rem auto;
+  width: 85%;
+  background-color: white;
+  /* opacity: 0.8; */
+}
+
+section iframe #vids {
+  height: 20rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden {
+  display: none;
+}
+
+.none {
+  display: none;
+}
+
+/* .visible {
+  display: block;
+} */
+
+.hiddenAgain {
+  display: none;
+}

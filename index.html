@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NASA APOD</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+	<section id="main">
+		<h1>A piece of space from the day</h1>
+		<section class="first">
+
+			<input type="date" name="" value="">
+
+			<button type="button" name="button">Get the picture of the day</button>
+
+		</section>
+	</section>
+
+	<main class="clearfix intro" id="visible" hidden="">
+		<section class="story">
+			<p class="thisStory">Enter a date and see what happen <br> that day in the universe</p>
+		</section>
+	</main>
+
+	<div class="panel hidden">
+
+		<section class="description mid left">
+			<h2>Explanation</h2>
+			<p id="explanation"></p>
+
+		</section>
+
+		<section class="date-info mid right">
+			<section>
+				<ul class="img-info">
+					<li>
+						<h3>Date : </h3>
+						<h3 id="theDate"></h3>
+					</li>
+					<li>
+						<h3>Title :</h3>
+						<h3 id="title"></h3>
+					</li>
+					<li>
+						<h3>Copyright:</h3>
+						<h3 id="copyright"></h3>
+					</li>
+				</ul>
+			</section>
+			<section class="typeOfUrl">
+				<img class=" hiddenAgain media" id="imgs" src="" alt="">
+				<iframe class="hiddenAgain media" id="vids" src="" frameborder="0"></iframe>
+			</section>
+		</section>
+	</div>
+
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
