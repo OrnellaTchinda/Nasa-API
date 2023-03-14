@@ -1,6 +1,10 @@
 # Nasa-API: <a href="https://nasa-find-picture-of-the-day.netlify.app/" target="_blank">Check It Out</a>
 
-<a href="https://codepen.io/julia-codes/pen/zYWodgZ" target="_blank"><img src="https://github.com/OrnellaTchinda/Nasa-API/blob/930d51bc1ac7e9f93e210fc64872dba9579752e2/A%20piece%20of%20Space%20from%20the%20day.mp4" /></a>
+
+
+https://user-images.githubusercontent.com/64944276/225056154-7c2a9f2d-5925-4f62-95ae-c99a59a5f6f5.mp4
+
+
 
 ### The doggo generator website generates a random image of a selected breed and random(mostly for fun) facts about the dog.
 
