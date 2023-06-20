@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/64944276/225056154-7c2a9f2d-5925-4f62-
 
 
 
-### The doggo generator website generates a random image of a selected breed and random(mostly for fun) facts about the dog.
+### This app pull the picture of the day from the NASA for any day you want.
 
 ## Tech Used: ![HTML BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)  ![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3)  ![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
 
