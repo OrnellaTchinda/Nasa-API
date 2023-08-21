@@ -63,7 +63,7 @@ body {
   opacity: 0.9;
   border-radius: 10px;
   padding: 1rem 2rem;
-  width: 50%;
+  width: 80%;
 }
 
 button {
@@ -184,7 +184,7 @@ section iframe #vids {
 }
 
 
-.mid:first-child {
+.mid {
   margin:auto;
 }
 
