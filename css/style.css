@@ -184,6 +184,9 @@ section iframe #vids {
 }
 
 
+.mid:first-child {
+  margin:auto;
+}
 
 
 }
