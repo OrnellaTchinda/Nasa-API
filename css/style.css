@@ -169,9 +169,9 @@ section iframe #vids {
    .panel {
      display:flex;
     flex-direction: column;
-  width: 80%;
-  max-width: 50rem;
-   text-align: center;
+    width: 80%;
+    max-width: 75rem;
+     justify-self:center;
  
   }
 
