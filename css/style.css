@@ -169,12 +169,14 @@ section iframe #vids {
    .panel {
     flex-direction: column;
     margin: auto;
+     width:90%;
+     justify-content:center;
   }
 #imgs,
 #vids {
   display: block;
   margin: 1.5rem auto;
-  width: 85%;
+/*   width: 85%; */
   background-color: white;
   /* opacity: 0.8; */
   width: 9rem;
