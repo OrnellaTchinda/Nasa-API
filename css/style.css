@@ -167,10 +167,12 @@ section iframe #vids {
 @media (max-width: 900px) {
 
    .panel {
+     display:flex;
     flex-direction: column;
-    margin: auto;
+margin: 2.5rem auto auto auto;
      width:50rem;
      justify-content:center;
+ 
   }
 #imgs,
 #vids {
@@ -186,7 +188,12 @@ section iframe #vids {
 
 .mid {
   margin:auto;
+    flex: 1;
+  border: 2px solid rgb(107, 107, 52);
 }
 
+  .first {
+  margin: 4rem auto auto auto;
+}
 
 }
