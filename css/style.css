@@ -169,7 +169,7 @@ section iframe #vids {
    .panel {
      display:flex;
     flex-direction: column;
-    margin: 2.5rem auto auto auto;
+    margin: auto;
      width:50rem;
      justify-content:center;
  
