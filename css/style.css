@@ -187,13 +187,11 @@ margin: 2.5rem auto auto auto;
 
 
 .mid {
-  margin:auto;
+  
     flex: 1;
   border: 2px solid rgb(107, 107, 52);
 }
 
-  .first {
-  margin: 4rem auto auto auto;
-}
+
 
 }
