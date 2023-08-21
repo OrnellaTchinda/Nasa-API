@@ -169,10 +169,16 @@ section iframe #vids {
    .panel {
      display:flex;
     flex-direction: column;
+    
+ 
+  }
+
+  .mid {
+  flex: 1;
+  border: 2px solid rgb(107, 107, 52);
     width: 80%;
     max-width: 75rem;
      justify-self:center;
- 
-  }
+}
 
 }
