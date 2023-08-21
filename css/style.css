@@ -159,3 +159,19 @@ section iframe #vids {
 .hiddenAgain {
   display: none;
 }
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media (max-width: 900px) {
+
+   .panel {
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+  }
+
+
+
+}
