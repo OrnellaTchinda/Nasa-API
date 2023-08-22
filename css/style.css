@@ -179,10 +179,11 @@ section iframe #vids {
     width: 80%;
     max-width: 75rem;
      justify-self:center;
+    margin :auto;
 }
 
-  .mid:first-child {
+/*   .mid:first-child {
   margin: auto;
-}
+} */
 
 }
