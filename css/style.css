@@ -102,9 +102,9 @@ button {
   border: 2px solid rgb(107, 107, 52);
 }
 
-.mid:first-child {
+/* .mid:first-child {
   margin-right: 2rem;
-}
+} */
 
 ul {
   display: flex;
