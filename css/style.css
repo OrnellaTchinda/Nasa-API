@@ -182,8 +182,8 @@ section iframe #vids {
     margin :auto;
 }
 
-/*   .mid:first-child {
-  margin: auto;
-} */
+  .left{
+  margin-bottom:1rem;
+}
 
 }
